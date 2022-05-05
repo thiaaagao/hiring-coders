@@ -1,0 +1,5 @@
+# O HTML POSSUI ESTRUTURA HIERARQUICA
+# TABELAS SÃO ESTRUTURADAS COMO: <table> <th> <tr> & <td> </table>
+# td => table data
+# th => table header (cabeça da tabela ou coluna)
+# tr => table row (linha da tabela)
