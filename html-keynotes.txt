@@ -3,3 +3,7 @@
 # td => table data
 # th => table header (cabeça da tabela ou coluna)
 # tr => table row (linha da tabela)
+------------------------------------------------------------------------------------------------id -> classe unica (representada por "#")
+.classe -> classe pode usada diversas vezes (representada por ".")
+------------------------------------------------------------------------------------------------
+<a> -> ancora para redirecionar
