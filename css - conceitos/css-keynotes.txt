@@ -1,2 +1,82 @@
-# CSS É BASEADO NA ORDEM (UP - DOWN) A LEITURA ACONTECE DE CIMA PARA BAIXO
+d# CSS É BASEADO NA ORDEM (UP - DOWN) A LEITURA ACONTECE DE CIMA PARA BAIXO
 # CSS FOLHA DE ESTILIZAÇÃO EM CASCATA
+#
+#
+# RESPONSIVIDADE
+#
+#
+#
+#
+#
+# LAYOUT RESPONSIVO
+# 1 - MANTENHA UM CODIGO LIMPO 
+# 2 - Evite CSS INLINE 
+# 3 - Use Grids flexiveis
+# 4 - Evite Estilos Absolutos (position absolute)
+# 5 - Use MEDIA QUERYS
+#
+#
+#
+#
+# MOBILE FIRST X LAYOUT RESPONSIVO 
+# DIFERENÇAS 
+# PENSA NO MOBILE PRIMEIRO E DEPOIS ESCALA PARA TELAS MAIORES
+# 70% DA POPULAÇÃO UTILIZA CELULARES
+# 1 - Otimização de carregamento 
+# 2 - Melhor experiência
+#
+#
+#
+# TIPOS DE CSS
+#
+# INLINE - Direto na tag html
+# INCORPADO - Dentro do codigo html
+# LINKADO - Arquivo css isolado linkado ao arquivo html
+#
+#
+#
+# CLASSES, TAG'S E ID'S
+#
+#
+#
+#
+#
+# PROPRIEDADES
+# margin: 0 auto; -> centraliza no meio da pagina
+#
+# display: none -> oculta a tag colocada
+# display: block -> default da web (bloco de elemento)
+# display: inline -> une em uma linha só
+# display: flex -> colocar no container pai 
+# 
+#  text-align: justify -> justifica o texto  
+#  padding: 15px -> "almofada"
+#
+# como tirar bolinha do li:
+#  list-style: none; 
+#  
+# como tirar sublinhado de link:
+# text-decoration: none;
+# 
+# justify-content: center; -> centralizar o texto
+# como tirar cor do link:
+# color: brown ; -> mudar cor do texto 
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+#
+# 
+
+

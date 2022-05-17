@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto; /* Centralizando conteudo com margin, sendo auto para direita e esquerda e 0 para cima e para baixo*/
+    display: flex;
+
+}
+
+p   {  
+    text-align: justify;
+    padding: 15px;
+}
+
+li {
+    padding: 10px;
+
+}
+
+.lista_footer{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+a {
+    text-decoration: none;
+    color: burlywood;
+}
