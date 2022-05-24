@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;451&display=swap');
+
+*  {  /* ZERANDO MARGIN E PADDING NO INICIO DO CSS */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif ;
+}
+
+ul {
+    list-style: none;
+
+
+}
+
+a {  /* RETIRANDO SUBLINHADO DO HYPERLINK */
+    text-decoration: none;
+    transition: 200ms;
+    color: initial;
+}
+
+a:hover{
+    color: #CC0000;
+    cursor: pointer;
+    text-decoration: none;
+}
