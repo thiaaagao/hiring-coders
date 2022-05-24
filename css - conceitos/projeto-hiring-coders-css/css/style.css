@@ -24,3 +24,38 @@ a:hover{
     cursor: pointer;
     text-decoration: none;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container_social{
+    justify-content: center;
+}
+
+.container_social ul li{
+    display: inline-flex;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+
+.social a img{
+    width: 10%;
+    display: ;
+}
+
+#foto_perfil > img{   /* AFETANDO O IMG DENTRO DA ID foto_perfil*/
+    border-radius: 50%;
+}   
+
+.profissao{
+    padding: 1em;
+    text-align: center;
+    
+}
+.profissao:hover{
+    font-weight: bold;
+    
+}
