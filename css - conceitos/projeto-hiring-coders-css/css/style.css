@@ -25,6 +25,7 @@ a:hover{
     text-decoration: none;
 }
 
+/* CONTAINER FOTO */
 .container{
     display: flex;
     justify-content: center;
@@ -34,6 +35,7 @@ a:hover{
     justify-content: center;
 }
 
+/* CONTAINER REDES SOCIAIS */
 .container_social ul li{
     display: inline-flex;
     padding: 5px 10px;
@@ -55,6 +57,7 @@ a:hover{
     text-align: center;
     
 }
+
 .profissao:hover{
     font-weight: bold;
     
