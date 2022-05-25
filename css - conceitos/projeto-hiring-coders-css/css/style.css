@@ -3,8 +3,13 @@
 *  {  /* ZERANDO MARGIN E PADDING NO INICIO DO CSS */
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:content-box;
     font-family: "Lato", sans-serif ;
+}
+body {/* 
+    background: url(./bck.jpg) center center fixed no-repeat ;
+    background-size: cover;  */
+    background-color: #f09820; 
 }
 
 ul {
@@ -16,7 +21,7 @@ ul {
 a {  /* RETIRANDO SUBLINHADO DO HYPERLINK */
     text-decoration: none;
     transition: 200ms;
-    color: initial;
+        color: initial;
 }
 
 a:hover{
@@ -27,9 +32,39 @@ a:hover{
 
 /* CONTAINER FOTO */
 .container{
+    align-content: space-between;
+    justify-content: center;
+    background-color: #f09820;
+}
+#foto_perfil{
+    padding: 75px;
     display: flex;
     justify-content: center;
 }
+
+#foto_perfil > img{   /* AFETANDO O IMG DENTRO DA ID foto_perfil*/
+    border-radius: 50%;
+}   
+
+.name{
+/*  padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    color: #f09820;
+    width: 475px;
+    height: auto;
+    border-radius: 15px;
+ */
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5%;
+}
+.job{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+/* FINAL CONTAINER FOTO */
 
 .container_social{
     justify-content: center;
@@ -45,20 +80,5 @@ a:hover{
 
 .social a img{
     width: 10%;
-    display: ;
-}
-
-#foto_perfil > img{   /* AFETANDO O IMG DENTRO DA ID foto_perfil*/
-    border-radius: 50%;
-}   
-
-.profissao{
-    padding: 1em;
-    text-align: center;
-    
-}
-
-.profissao:hover{
-    font-weight: bold;
     
 }
