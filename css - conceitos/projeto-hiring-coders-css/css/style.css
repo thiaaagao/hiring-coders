@@ -10,75 +10,81 @@ body {/*
     background: url(./bck.jpg) center center fixed no-repeat ;
     background-size: cover;  */
     background-color: #f09820; 
+    text-align: center;
 }
 
 ul {
     list-style: none;
-
-
+    font-weight: bold;
+    font-style: italic;
+    display: inline-flex;
+    background-color: azure;
+    width: max-content;
 }
 
-a {  /* RETIRANDO SUBLINHADO DO HYPERLINK */
-    text-decoration: none;
-    transition: 200ms;
-        color: initial;
-}
-
-a:hover{
-    color: #CC0000;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-/* CONTAINER FOTO */
+/* CONTAINER */
 .container{
-    align-content: space-between;
-    justify-content: center;
-    background-color: #f09820;
+    padding: 150px 0;
+    background-color: #f09820;  
+    text-align: center;
+    justify-content: baseline;
+    display: inline-block;
+    width: fit-content;/* 
+    top: 55%;
+    left: 35%; */
+    /* margin: -25px 0 0 -25px; */ 
 }
-#foto_perfil{
-    padding: 75px;
-    display: flex;
-    justify-content: center;
+
+.name {
+    background-color: azure;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 5%;
+}
+
+
+.name p{
+    transition: 325ms;
+    border-radius: 1em;
+    color: #f09820;
+    transition-delay: 100ms;
+}
+
+.name p:hover, .name p:focus{ /* MUDANÇA DE COR AO PASSAR O MOUSE EM CIMA */
+    color: #fff;
+    background-color: #f09820;
+    
+}
+
+.container .name h1{
+    font-size: 55px;
+
+}
+
+.container .name p{
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.social ul{
+    padding: 15px 55px;    
+    margin: -55px auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.container .social ul li{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px 0 10px;
 }
 
 #foto_perfil > img{   /* AFETANDO O IMG DENTRO DA ID foto_perfil*/
     border-radius: 50%;
+    margin: 0 auto;
 }   
 
-.name{
-/*  padding: 15px;
-    text-align: center;
-    background-color: #fff;
-    color: #f09820;
-    width: 475px;
-    height: auto;
-    border-radius: 15px;
- */
-    font-size: 25px;
-    font-weight: bold;
-    padding: 5%;
-}
-.job{
-    font-size: 25px;
-    font-weight: bold;
-    
-}
-/* FINAL CONTAINER FOTO */
-
-.container_social{
-    justify-content: center;
-}
-
-/* CONTAINER REDES SOCIAIS */
-.container_social ul li{
-    display: inline-flex;
-    padding: 5px 10px;
-    margin: 0 auto;
-}
-
-
-.social a img{
-    width: 10%;
-    
-}
